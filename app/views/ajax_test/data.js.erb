@@ -1,0 +1,11 @@
+var data = <%= @data %>;
+var result = '<table class="info">';
+result += '<tr><th class="title">' + data.rss.channel.title + '</th></tr>';
+result += '<tr><th class="desc">' + data.rss.channel.description + '</th></tr>';
+data.rss.channel.item.forEach(function (e) {
+    result += '<tr><td class="item"><a href="'+ e.link +'"target="_blank">'
+            + e,title + '</a></td></tr>';
+});
+result +=  '</table>';
+
+$('#result').html(result);

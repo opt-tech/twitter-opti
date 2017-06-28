@@ -1,0 +1,29 @@
+<h1>Twitter トレンド</h1>
+
+<table border="1" div id="trend_disp_table">
+  <tr><th>東京のトレンド</th></tr>
+  <% @trends_hash['東京'].each do |t| -%>
+      <tr><td><%= t %></td></tr>
+  <% end -%>
+</table>
+
+<table border="1" div id="trend_disp_table">
+  <tr><th>大阪のトレンド</th></tr>
+  <% @trends_hash['大阪'].each do |t| -%>
+      <tr><td><%= t %></td></tr>
+  <% end -%>
+</table>
+
+<table border="1" div id="trend_disp_table">
+  <tr><th>名古屋のトレンド</th></tr>
+  <% @trends_hash['名古屋'].each do |t| -%>
+      <tr><td><%= t %></td></tr>
+  <% end -%>
+</table>
+
+<table border="1" div id="trend_disp_table">
+  <tr><th>日本のトレンド</th></tr>
+  <% @trends_hash['日本'].each do |t| -%>
+      <tr><td><%= t %></td></tr>
+  <% end -%>
+</table>

@@ -1,0 +1,17 @@
+<h1>AjaxTest#index</h1>
+
+<p id="ajax">jquery not run</p>
+
+<hr>
+<div id="result" >no info</div>
+
+<script>
+  var f = function () {
+      $.ajax({
+          type:'GEt',
+          url: '/ajax_test/data'
+      });
+  };
+  setTimeout(f,60000);
+  f();
+</script>
