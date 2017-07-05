@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  get 'ajax_test/index'
-  get'ajax_test/data'
+  get 'top/index'
+  root to: "top#index"
   resources :followers
-  root :to =>  'trends#index'
+  get '/trends', to:'trends#index'
+  get '/trends/history', to: 'trends#history', as: :history
 end

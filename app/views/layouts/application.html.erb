@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-    <title>TwPlay</title>
+    <title>ついった</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all',
+                               'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+  <header class="navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <%= link_to "Twitter Optimizer", top_index_path, id: "logo" %>
+        <nav>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="header_li"><%= link_to "トレンド",  trends_path %></li>
+            <li class="header_li"><%= link_to "coming soon", '#' %></li>
+            <li class="header_li"><%= link_to "coming soon", '#' %></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="container">
+      <%= yield %>
+    </div>
   </body>
 </html>

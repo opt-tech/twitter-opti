@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe AjaxTestController, type: :controller do
+RSpec.describe TopController, type: :controller do
 
   describe "GET #index" do
     it "returns http success" do

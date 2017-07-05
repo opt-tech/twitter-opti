@@ -1,29 +1,22 @@
 <h1>Twitter トレンド</h1>
 
-<table border="1" div id="trend_disp_table">
-  <tr><th>東京のトレンド</th></tr>
-  <% @trends_hash['東京'].each do |t| -%>
-      <tr><td><%= t %></td></tr>
-  <% end -%>
-</table>
+<div id = "created_ymdh">
+  <%= "更新日時:" + @latest_created_at %>
+</div>
+<br>
 
-<table border="1" div id="trend_disp_table">
-  <tr><th>大阪のトレンド</th></tr>
-  <% @trends_hash['大阪'].each do |t| -%>
-      <tr><td><%= t %></td></tr>
-  <% end -%>
-</table>
-
-<table border="1" div id="trend_disp_table">
-  <tr><th>名古屋のトレンド</th></tr>
-  <% @trends_hash['名古屋'].each do |t| -%>
-      <tr><td><%= t %></td></tr>
-  <% end -%>
-</table>
-
-<table border="1" div id="trend_disp_table">
-  <tr><th>日本のトレンド</th></tr>
-  <% @trends_hash['日本'].each do |t| -%>
-      <tr><td><%= t %></td></tr>
-  <% end -%>
-</table>
+<% @trends.each do |key, value| %>
+  <table border="1" div id="trend_disp_table">
+    <tr><th><%= link_to key + "のトレンド", history_path(region: key) %></th></tr>
+    <% unless value[:new].nil? then %>
+        <%  value[:new].each do |trend| -%>
+            <tr><td class="new_trend"><%= trend %></td></tr>
+        <% end -%>
+    <% end %>
+    <% unless value[:existing].nil? then %>
+      <% value[:existing].each do |trend| -%>
+          <tr><td><%= trend %></td></tr>
+      <% end -%>
+    <% end -%>
+  </table>
+<% end %>

@@ -1,13 +1,7 @@
 class Follower < ApplicationRecord
 
   # Twitter APIの認証を通します
-  @client = Twitter::REST::Client.new(
-    consumer_key: 'iBALMSi7qgkswso9qQ1rHXrRA',
-    consumer_secret:   '2u3ZtTmi93p2Xr2VRaZ7tuD1XFzsqmU0rZZmYzfhtPfUigSGqv',
-    access_token:        '848325356985569280-aWTwm6s7MXM8Vv9JcxbZc84XCKwMGM6',
-    access_token_secret: 'HCkghdlfqG8HGEp11hD6lMCeVL7B1C2fltNkrNWBgYeIb',
-  )
-
+  @client = self.create_twitter_client
 
   def self.get_followers(handle_id)
     # 登録済みのハンドルは洗い替えます

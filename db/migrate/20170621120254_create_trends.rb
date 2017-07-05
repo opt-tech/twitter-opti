@@ -3,7 +3,6 @@ class CreateTrends < ActiveRecord::Migration[5.0]
     create_table :trends do |t|
       t.string :region
       t.string :trend_word
-
       t.timestamps
     end
   end
