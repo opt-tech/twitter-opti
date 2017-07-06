@@ -5,18 +5,20 @@
 </div>
 <br>
 
-<% @trends.each do |key, value| %>
-  <table border="1" div id="trend_disp_table">
-    <tr><th><%= link_to key + "のトレンド", history_path(region: key) %></th></tr>
-    <% unless value[:new].nil? then %>
-        <%  value[:new].each do |trend| -%>
-            <tr><td class="new_trend"><%= trend %></td></tr>
+<div id="tables">
+  <% @trends.each do |key, value| %>
+    <table border="1" div class="trend_disp_table">
+      <tr><th><%= link_to key + "のトレンド", history_path(region: key) %></th></tr>
+      <% unless value[:new].nil? then %>
+          <%  value[:new].each do |trend| -%>
+              <tr><td class="new_trend"><%= trend %></td></tr>
+          <% end -%>
+      <% end %>
+      <% unless value[:existing].nil? then %>
+        <% value[:existing].each do |trend| -%>
+            <tr><td><%= trend %></td></tr>
         <% end -%>
-    <% end %>
-    <% unless value[:existing].nil? then %>
-      <% value[:existing].each do |trend| -%>
-          <tr><td><%= trend %></td></tr>
       <% end -%>
-    <% end -%>
-  </table>
-<% end %>
+    </table>
+  <% end %>
+</div>

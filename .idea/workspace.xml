@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca2f46f0-7924-4dd0-bc36-c9db2dea8cce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/trends/history.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/twitter_config.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/woeid.yml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/javascripts/ajax_test.coffee" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/ajax_test.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/controllers/ajax_test_controller.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/helpers/ajax_test_helper.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ajax_test/data.js.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/ajax_test/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/layouts/ajax.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/tasks/get_trends.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/controllers/ajax_test_controller_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/helpers/ajax_test_helper_spec.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/spec/views/ajax_test/index.html.erb_spec.rb" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tw_play.iml" afterPath="$PROJECT_DIR$/.idea/tw_play.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/trends.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/trends.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/trends_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/trends_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/application_record.rb" afterPath="$PROJECT_DIR$/app/models/application_record.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/follower.rb" afterPath="$PROJECT_DIR$/app/models/follower.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/trend.rb" afterPath="$PROJECT_DIR$/app/models/trend.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trends/index.html.erb" afterPath="$PROJECT_DIR$/app/views/trends/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/schedule.rb" afterPath="$PROJECT_DIR$/config/schedule.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20170621120254_create_trends.rb" afterPath="$PROJECT_DIR$/db/migrate/20170621120254_create_trends.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -178,21 +150,21 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/trends/index.html.erb">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="trends.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="trends.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/trends.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+                <state relative-caret-position="435">
+                  <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
                   <folding />
                 </state>
               </provider>
@@ -324,15 +296,15 @@
         <option value="$PROJECT_DIR$/app/views/trends/history.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/top/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/trends.scss" />
         <option value="$PROJECT_DIR$/config/woeid.yml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/models/trend.rb" />
-        <option value="$PROJECT_DIR$/app/views/trends/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/trends/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/trends.scss" />
       </list>
     </option>
   </component>
@@ -640,18 +612,18 @@
       <workItem from="1498034202872" duration="5709000" />
       <workItem from="1498097480204" duration="16713000" />
       <workItem from="1498455387918" duration="5069000" />
-      <workItem from="1498801269235" duration="34761000" />
+      <workItem from="1498801269235" duration="35674000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117303000" />
+    <option name="totallyTimeSpent" value="118216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-198" y="-1057" width="1680" height="958" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13809524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13809524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -891,14 +863,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/trends.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/top/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -997,10 +961,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/trends/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="390">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1013,10 +977,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/trends/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/trends.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
           <folding />
         </state>
       </provider>
