@@ -11,7 +11,7 @@ default: &default
 
 development:
   <<: *default
-  database: tweetimizer_development
+  database: twoptim-stg
   host: 127.0.0.1
   username: root
   password: ''
