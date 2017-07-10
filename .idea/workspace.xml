@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca2f46f0-7924-4dd0-bc36-c9db2dea8cce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/trends/history.html.erb" afterPath="$PROJECT_DIR$/app/views/trends/history.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/top/index.html.erb" afterPath="$PROJECT_DIR$/app/views/top/index.html.erb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -49,11 +49,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="history.html.erb" pinned="false" current-in-tab="true">
+              <file leaf-file-name="history.html.erb" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/views/trends/history.html.erb">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="210">
-                      <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+                      <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
                       <folding />
                     </state>
                   </provider>
@@ -69,11 +69,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+              <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/top/index.html.erb">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="30">
-                      <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+                    <state relative-caret-position="60">
+                      <caret line="4" column="149" lean-forward="false" selection-start-line="4" selection-start-column="149" selection-end-line="4" selection-end-column="149" />
                       <folding />
                     </state>
                   </provider>
@@ -113,7 +113,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+              <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="15">
@@ -123,7 +123,7 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="application.css" pinned="false" current-in-tab="true">
+              <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
                   <provider selected="true" editor-type-id="text-editor">
                     <state relative-caret-position="90">
@@ -280,7 +280,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20170621120254_create_trends.rb" />
         <option value="$PROJECT_DIR$/app/controllers/trends_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/top/index.html.erb" />
         <option value="$PROJECT_DIR$/config/woeid.yml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -293,6 +292,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" />
         <option value="$PROJECT_DIR$/app/views/trends/history.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/top/index.html.erb" />
       </list>
     </option>
   </component>
@@ -677,12 +677,12 @@
       <workItem from="1498097480204" duration="16713000" />
       <workItem from="1498455387918" duration="5069000" />
       <workItem from="1498801269235" duration="36232000" />
-      <workItem from="1499388773118" duration="6590000" />
+      <workItem from="1499388773118" duration="7173000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125364000" />
+    <option name="totallyTimeSpent" value="125947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-240" y="-1057" width="1680" height="958" extended-state="0" />
@@ -961,14 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1001,14 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/top/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/trends.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1036,7 +1020,23 @@
     <entry file="file://$PROJECT_DIR$/app/views/trends/history.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/top/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="149" lean-forward="false" selection-start-line="4" selection-start-column="149" selection-end-line="4" selection-end-column="149" />
           <folding />
         </state>
       </provider>
