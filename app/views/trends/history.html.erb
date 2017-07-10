@@ -2,7 +2,7 @@
 <div><%= link_to '一覧へ戻る', :back %></div>
 <br>
 <% @history.each do |created_at, trend_words| %>
-    <table border="1" div id="trend_disp_table">
+    <table border="1" div class="trend_disp_table">
       <tr><th><%= created_at + "時更新" %></th></tr>
       <% unless trend_words.nil? then %>
           <% trend_words.each do |trend| -%>
