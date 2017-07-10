@@ -1,13 +1,15 @@
 <h1><%= @region + "の過去10時間のトレンド"%></h1>
 <div><%= link_to '一覧へ戻る', :back %></div>
 <br>
-<% @history.each do |created_at, trend_words| %>
-    <table border="1" div class="trend_disp_table">
-      <tr><th><%= created_at + "時更新" %></th></tr>
-      <% unless trend_words.nil? then %>
-          <% trend_words.each do |trend| -%>
-              <tr><td><%= trend %></td></tr>
-          <% end -%>
-      <% end -%>
-    </table>
+<div id="tables">
+  <% @history.each do |created_at, trend_words| %>
+      <table border="1" div class="trend_disp_table">
+        <tr><th><%= created_at + "時更新" %></th></tr>
+        <% unless trend_words.nil? then %>
+            <% trend_words.each do |trend| -%>
+                <tr><td><%= trend %></td></tr>
+            <% end -%>
+        <% end -%>
+      </table>
 <% end %>
+</div>
