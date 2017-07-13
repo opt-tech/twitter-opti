@@ -1,0 +1,9 @@
+<h1><%= @handle_id%>のフォロワー</h1>
+
+<%= link_to "CSV出力", followers_path(@followers, format: :csv), method: :post, class: "btn btn-primary" %>
+
+<ul>
+  <% @followers.each do |follower| %>
+    <li><%= follower.follower_id %></li>
+  <% end %>
+</ul>
