@@ -2,8 +2,6 @@ class Trend < ApplicationRecord
   require 'json'
   require 'oauth'
 
-  WOEIDS = { 1118370 => '東京', 15015370 =>'大阪', 1117817 =>'名古屋', 23424856 =>'日本' }
-
   def self.get_trend
     @client = self.create_twitter_client
     consumer = OAuth::Consumer.new(
@@ -63,5 +61,4 @@ class Trend < ApplicationRecord
     end
     history_hash
   end
-
 end

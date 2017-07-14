@@ -4,8 +4,22 @@
   <%= "更新日時:" + @latest_created_at %>
 </div>
 <br>
+<%= link_to "CSV出力", trends_path(format: :csv), class: "btn btn-primary" %>
 
 <div id="tables">
+    <table border="1" div class="trend_disp_table">
+        <tr>
+          <th>東京のホットワード</th>
+          <th>ボリューム</th>
+        </tr>
+        <% @hot_trends.each do |key, value| %>
+          <tr>
+            <td><%= key %></td>
+            <td><%= value %></td>
+          </tr>
+        <% end %>
+    </table>
+
   <% @trends.each do |key, value| %>
     <table border="1" div class="trend_disp_table">
       <tr><th><%= link_to key + "のトレンド", history_path(region: key) %></th></tr>
