@@ -11,17 +11,23 @@
   <body>
   <header class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
-        <%= link_to "Twitter Optimizer", top_index_path, id: "logo" %>
+        <%= link_to "Twitter Optimizer", root_path, id: "logo" %>
         <nav>
           <ul class="nav navbar-nav navbar-right">
             <li class="header_li"><%= link_to "トレンド",  trends_path %></li>
-            <li class="header_li"><%= link_to "coming soon", '#' %></li>
+            <li class="header_li"><%= link_to "フォロワー取得", followers_path %></li>
             <li class="header_li"><%= link_to "coming soon", '#' %></li>
           </ul>
         </nav>
       </div>
     </header>
     <div class="container">
+      <% if flash[:notice] %>
+          <div class="alert alert-success">
+            <%= flash[:notice] %>
+          </div>
+      <% end %>
+      <div id="fakeLoader"></div>
       <%= yield %>
     </div>
   </body>

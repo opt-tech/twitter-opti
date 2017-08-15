@@ -1,3 +1,18 @@
-// Place all the styles related to the followers controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+.handle_disp_table {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 100px;
+  width:20%;
+}
+
+
+.td_vertical{
+  vertical-align:center;
+}
+
+#type_name {
+  -webkit-appearance:none;
+  width:30%;
+  height:10%;
+  line-height: 30px;
+}

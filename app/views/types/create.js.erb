@@ -1,0 +1,8 @@
+$('#type_area').val('');
+$('#success_message').text('登録しました');
+$('#type_area').html(
+    '<%= j(render partial: "types/disp_type", locals: {types: @types}) %>'
+);
+$('#disp_handle_register').html(
+    '<%= j(render partial: "followers/disp_handle_register", locals: {types: @types}) %>'
+);

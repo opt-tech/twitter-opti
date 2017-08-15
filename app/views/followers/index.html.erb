@@ -1,8 +1,33 @@
-<h1>フォロワー取得</h1>
 
-<p>handleIDを入力してください</p>
-
-<%= form_tag({controller: "followers", action: "create"}) do %>
-    <%= text_field_tag :handle_id %>
-    <%= submit_tag '取得', :name => nil %>
+<h1>フォロワー分析</h1>
+<% if flash[:alert] %>
+    <div class="alert alert-danger">
+      <%= flash[:alert] %>
+    </div>
 <% end %>
+  <div>
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="active" role="presentation">
+        <a aria-controls="client_info" data-toggle="tab" href="#get_handle_followers" role="tab">ハンドル</a>
+      </li>
+      <li role="presentation">
+        <a aria-controls="item_index" data-toggle="tab" href="#register_type" role="tab">属性</a>
+      </li>
+      <li role="presentation">
+        <a aria-controls="discount_index" data-toggle="tab" href="#get_duplicate_user" role="tab">重複ユーザー取得</a>
+      </li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane active" id="get_handle_followers" role="tabpanel">
+        <%= render :partial => "get_handle_followers", locals: {followers: @followers, types: @types}%>
+      </div>
+      <div class="tab-pane" id="register_type" role="tabpanel">
+        <%= render :partial => "register_type", locals: {types: @types}%>
+      </div>
+      <div class="tab-pane" id="get_duplicate_user" role="tabpanel">
+        <%= render :partial => "get_duplicate_user", locals: {types: @types} %>
+      </div>
+    </div>
+  </div>
+
+

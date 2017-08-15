@@ -1,0 +1,13 @@
+<p>属性を登録してください</p>
+<%= form_tag({controller: "types", action: "create"}, remote:true) do %>
+    <%= label_tag '属性' %>
+    <%= text_field_tag :name %>
+    <%= submit_tag '登録', class: "btn btn-primary"%>
+<% end %>
+
+<br><br><br><br>
+
+<p id="success_message" class="text-success"></p>
+<div id="type_area">
+  <%= render :partial => "types/disp_type", locals: {types: @types}%>
+</div>

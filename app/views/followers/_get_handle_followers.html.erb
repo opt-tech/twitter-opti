@@ -1,0 +1,22 @@
+<div id="disp_handle_register">
+  <%= render :partial => "disp_handle_register", locals: {types: @types}%>
+</div>
+
+<br><br><br><br>
+<% followers.each do |key, handle_ids| %>
+    <table class="handle_disp_table table-bordered">
+      <tr>
+        <th class="text-center"><%= key %></th>
+        <th></th>
+      </tr>
+        <% handle_ids.each do |handle_id| %>
+          <tr>
+            <td class="col-md-4"><%= handle_id %></td>
+            <td class="col-md-2 td_vertical"><%= link_to '解除', destroy_handle_path(handle_id),
+                              data: { confirm: 'ハンドルを削除します。よろしいですか?'},
+                              class: "text-primary", remote: true %>
+            </td>
+          </tr>
+        <% end %>
+    </table>
+<% end %>

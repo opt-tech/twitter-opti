@@ -1,0 +1,4 @@
+$('#result').val('');
+$('#result').html(
+    '<%= j(render partial: 'disp_duplicate_users', :locals => {follower_ids: @duplicate_follower_ids, user_count:@user_count}) %>'
+);

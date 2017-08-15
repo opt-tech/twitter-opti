@@ -1,0 +1,17 @@
+
+<h3>重複ユーザー数:<%= user_count %></h3>
+<%= link_to "CSV出力", export_csv_path(format: :csv), class: "btn btn-primary" %>
+<table class="table">
+  <tr>
+    <th>id</th>
+    <th>リンク</th>
+  </tr>
+  <% follower_ids.each do |id| %>
+    <tr>
+      <td><%= id %></td>
+      <td><%= link_to 'https://twitter.com/'+id, 'https://twitter.com/'+id, :target=>["_blank"] %></td>
+    </tr>
+
+  <% end %>
+</table>
+

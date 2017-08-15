@@ -1,0 +1,12 @@
+<% if types.blank? %>
+    <h3 class=" text-danger ">属性の登録をしてください</h3>
+<% else %>
+    <%= form_tag({controller: "followers", action: "create"}) do %>
+        <%= label_tag 'ハンドルのID' %>
+        <%= text_field_tag :handle_id %>
+        <%= label_tag '属性' %>
+        <%= collection_select(:type, :name, types, :id, :name)  %>
+        <br><br><br>
+        <%= submit_tag '登録', class: "btn btn-primary"%>
+    <% end %>
+<% end %>

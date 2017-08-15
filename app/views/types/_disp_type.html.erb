@@ -1,0 +1,18 @@
+<table class="table table-hover">
+  <tr>
+    <th>id</th>
+    <th>属性</th>
+    <th></th>
+  </tr>
+  <% types.each do |type| %>
+      <tr>
+        <td><%= type.id %></td>
+        <td><%= type.name %></td>
+        <td>
+          <%= link_to'削除', type_path(type.id), data:{confirm: '属性を削除すると、紐づくハンドルも削除されます。削除してよろしいですか?'},
+               class: "btn btn-mini btn-danger", method: :delete, remote: true %>
+        </td>
+      </tr>
+  <% end %>
+</table>
+

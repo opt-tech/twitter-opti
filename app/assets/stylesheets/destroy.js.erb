@@ -1,0 +1,5 @@
+$('#type_area').val('');
+$('#success_message').text('削除しました');
+$('#type_area').html(
+    '<%= j(render partial: "types/disp_type", locals: {types: @types}) %>'
+);
